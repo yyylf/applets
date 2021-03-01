@@ -1,1 +1,1 @@
-<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><text class="title">{{title}}</text></view></view>
+<view class="data-v-7fd8e9f4"><swiper class="swiper data-v-7fd8e9f4" indicator-dots="{{true}}" indicator-active-color="#000" autoplay="true" interval="{{2000}}"><block wx:for="{{swiper}}" wx:for-item="item" wx:for-index="index" wx:key="index"><swiper-item class="data-v-7fd8e9f4"><image src="{{item.url}}" class="data-v-7fd8e9f4"></image><view class="data-v-7fd8e9f4">{{item.name}}</view></swiper-item></block></swiper></view>
